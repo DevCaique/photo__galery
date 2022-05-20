@@ -22,18 +22,25 @@ img {
 
 .filter__area {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 1em;
   gap: 1em;
 }
 
-.filter__area > * {
-  flex-basis: 100%;
+@media screen and (max-width: 625px) {
+  .filter__area {
+    grid-template-columns: 1fr;
+  }
 }
 
 .filter__btn {
   padding: 1em 2em;
   cursor: pointer;
+  background-color: #ffffff;
+  color: #262626;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .img__area {
