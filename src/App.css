@@ -24,14 +24,8 @@ img {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   gap: 1em;
-}
-
-@media screen and (max-width: 625px) {
-  .filter__area {
-    grid-template-columns: 1fr;
-  }
 }
 
 .filter__btn {
@@ -51,4 +45,14 @@ img {
 
 .disabled {
   display: none;
+}
+
+@media screen and (max-width: 625px) {
+  .filter__area {
+    grid-template-columns: 1fr;
+  }
+
+  .img__area {
+    grid-template-columns: 1fr 1fr;
+  }
 }
