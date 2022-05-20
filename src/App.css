@@ -7,6 +7,7 @@
 body {
   background-color: #262626;
   color: #ffffff;
+  overflow: hidden;
 }
 
 img {
@@ -31,10 +32,16 @@ img {
 .filter__btn {
   padding: 1em 2em;
   cursor: pointer;
-  background-color: #ffffff;
   color: #262626;
+  background-color: #fff;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.filter__btn.disabled__btn {
+  outline: 1px solid #ffffff;
+  background-color: #262626;
+  color: #fff;
 }
 
 .img__area {
