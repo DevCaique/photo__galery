@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.photo__galery {
+  width: min(90%, 40.5rem);
+  margin-top: 2em;
+  margin-inline: auto;
+}
+
+.filter__area {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1em;
+  gap: 1em;
+}
+
+.filter__area > * {
+  flex-basis: 100%;
+}
+
+.filter__btn {
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.img__area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.disabled {
+  display: none;
+}
