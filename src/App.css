@@ -12,11 +12,12 @@ body {
 img {
   width: 100%;
   height: auto;
+  transform: 0.9s;
 }
 
 .photo__galery {
-  width: min(90%, 40.5rem);
-  margin-top: 2em;
+  width: min(90%, 60.5rem);
+  margin-block: 2em;
   margin-inline: auto;
 }
 
